@@ -18,5 +18,7 @@ A "Central Box" handles the flow of data. Every machine is connected to the box 
 
 **Physical Layer** (Layer 1) is the method of moving data between computers. Copper cabling, fiber optics, and radia waves are part of the **Physical Layer**. Computer are connected to each other at this layer (not directly).
 
-A *NIC* (Network interface card) is the interface between the PC and the network. Today they are no longer *cards*, as they are built into the actial motherboard.
+A *NIC* (Network interface card) is the interface between the PC and the network. Today they are no longer *cards*, as they are built into the actual motherboard. Cable is connected from the NIC to the central box. It is often placed in the **Data Link Layer**
 
+* inside each NIC, burned onto a ROM chip, is firmware containing a unique identifier with a 48 bit value called a MAC address (media access control).
+* 
